@@ -1,9 +1,3 @@
-const booleanToWord = (boolean) => {
-  if (boolean === true){
-    return 'Yes'
-  };
-
-  return 'No';
-};
+const booleanToWord = (boolean) => (boolean ? "Yes" : "No");
 
 module.exports = booleanToWord;
